@@ -16,170 +16,48 @@ body {
   height: 100%;
 }
 
-#nav{
-  width: 100%;
-  height: 15%;
-  display: flex;
-  justify-content: space-between;
-}
-#leftNav{
-  margin-left: 10%;
-  height: 100%;
-  width: 40%;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  font-size: 19px;
-  font-weight: 400;
-}
 
-#leftNav p span{ 
-  color: #FF5555;
-  font-weight: 700;
-}
-
-#rightNav{
-  height: 100%;
-  width: 25%;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-}
-
-#rightNav button{
-  width: 49%;
-  background-color: black;
-  height: 52%;
-  color: white;
-  border: none;
-  font-size: 17px;
-  border-radius: 4px;
-}
 
 #home{
   width: 100%;
-  height: 100%;
-  background-color: white;
-  display: flex;
-}
-
-#leftHome{
-  width: 44%;
-  margin-left: 11.5%;
-  height: 100%;
-  position: relative;
-}
-
-#leftHome h1{
-  font-size: 64px;
-  position: absolute;
-  top: 18%;
-}
-
-#leftHome p{
-  font-size: 19px;
-  position: absolute;
-  top: 39%;
-  color: rgb(135, 135, 135);
-  text-shadow: 1px 1px rgb(214, 214, 214);
-  letter-spacing: 1px;
-}
-
-#GetStartedButton{
-  width: 29%;
-  background-color: black;
-  height: 8%;
+  height: 90%;
+  background-color: #b09773;
   color: white;
-  border: none;
-  font-size: 17px;
-  border-radius: 4px;
+  padding: 4%;
 }
 
-#WatchVideoButton{
-  width: 29%;
-  background-color: white;
-  height: 8%;
-  color: black;
-  border: 1px solid rgb(176, 176, 176);
-  font-size: 17px;
-  border-radius: 4px;
-  margin-left: 3%;
+#home h3{
+  text-align: center;
+  font-size: 30px;
+  font-weight: 300;
 }
 
-#rightHome{
-  width: 44.5%;
-  height: 100%;
-  position: relative;
-  overflow: hidden;
-}
 
-#overlay{
-  left: -2%;
-  position: absolute;
-}
-#overlay1{
-  top: 12%;
-  left: 26%;
-  position: absolute;
-}
-
-#overlay2{
-  position: absolute;
-  top: 6%;
-  left: 10%;
-}
-
-#overlay3{
-  position: absolute;
-  top: -3%;
-  right: 17%;
-}
-
-#star1{
-  position: absolute;
-  left:-15%;
-  width: 7%;
-  top: 5%;
-}
-#A{
-  position: absolute;
-  left: 10%;
-  width: 70%;
-  bottom: -10%;
-}
-
-#features{
+#nav{
   width: 100%;
-  height: 100%;
+  height: 10%;
   display: flex;
-  overflow: hidden;
-}
-#leftFeatures{
-  width: 44%;
-  height: 100%;
-  margin-left: 11.5%;
-  position: relative;
+  align-items: center;
+  justify-content: space-evenly;
 }
 
-#rightFeatures{
-  width: 44.5%;
-  height: 100%;
-  position: relative;
-  padding-top: 8%;
+#home h2{
+  font-size: 46px;
+  font-weight: 400;
+  margin-top: 20%;
 }
 
-#FeatureOverlay1{
-  position: absolute;
-  left: -15%;
-  top: -5%;
+#home button{
+  padding: 14px;
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+  margin-top: 2%;
+  font-size: 17px;
 }
 
-#FeatureOverlay2{
-  position: absolute;
-  left: 8%;
-  top: 5%;
-  transform: rotate(15deg);
-}
+
+
 
 #title{
   font-size: 18px;
@@ -203,100 +81,43 @@ body {
   opacity: .5;
   width: 80%;
 }
-#FeatureOverlay3{
-  position: absolute;
-  right: 0%;
-  top: -5%;
-}
-
-#advantagesNotification{
-  width: 100%;
-  height: 100%;
-  display: flex;
-  overflow: hidden;
-}
-
-#leftAdvantagesNotification{
-  width: 44%;
-  height: 100%;
-  margin-left: 11.5%;
-  padding-top: 18%;
-}
 
 
-#rightAdvantagesNotification{
-  width: 44.5%;
-  height: 100%;
-  position: relative;
-}
-#rightAdvantagesNotificationOverlay{
-  position: absolute;
-  left: -5%;
-}
-
-#advantagesCustomizable{
-  width: 100%;
-  height: 100%;
-  display: flex;
-  overflow: hidden;
-}
-
-#leftAdvantagesCustomizable{
-  width: 44%;
-  height: 100%;
-  margin-left: 11.5%;
-}
-
-#rightAdvantagesCustomizable{
-  padding-top: 18%;
-  width: 44.5%;
-  height: 100%;
-}
 
 #testimonial{
   width: 100%;
   height: 100%;
+  padding: 2%;
+  margin-top: 5%;
 }
-.testimonialHeading{
+
+#testimonial h2{
+  font-size: 33px;
+  font-weight: 400;
   text-align: center;
-  color: black;
 }
-#testimonialContent{
+
+#testimonial h6{
+  opacity: .4;
+  text-align: center;
+  font-size: 17px;
+  font-weight: 400;
+}
+
+#Product_images{
   width: 100%;
   height: 80%;
+  margin-top: 2%;
   display: flex;
+  justify-content: space-between;
 }
 
-#leftTestimonial{
-  width: 44%;
+#Product_images img{
+  width: 32%;
   height: 100%;
-  margin-left: 11.5%;
-  position: relative;
+
 }
 
-#rightTestimonial{
-  padding-top: 10%;
-  width: 44.5%;
-  height: 100%;
-}
-#leftTestimonialOverlay{
-  position: absolute;
-  top: 0%;
-  left: -20%;
-}
-#rightTestimonial h6{
-  font-size: 28px;
-  margin-bottom: 5%;
-  font-weight: 600;
-}
-
-#rightTestimonial p{
-  font-size: 18px;
-  width: 75%;
-  opacity: .5;
-  line-height: 32px;
-  margin-bottom: 4%;
-}
 
 #footer{
   width: 100%;
@@ -309,6 +130,8 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
+  background-color: black;
+  color: white;
 }
 #footerData{
   width: 100%;
@@ -331,7 +154,7 @@ body {
 
 .footerDataClass button{
   width: 69%;
-  background-color: black;
+  background-color: #b09773;
   height: 25%;
   color: white;
   border: none;
@@ -344,4 +167,45 @@ body {
   background-color: black;
   border-radius: 100px;
   opacity: .6;
+}
+
+
+#Trends{
+  width: 100%;
+  height: 80%;
+  background-color: #b09773;
+  display: flex;
+}
+#leftTrends{
+  width: 30%;
+  height: 100%;
+  color: white;
+  padding: 4%;
+}
+
+#leftTrends h3{
+  font-size: 35px;
+  font-weight: 400;
+  margin-bottom: 16%;
+}
+
+#leftTrends button{
+  padding: 10px;
+  margin-top: 13%;
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+}
+
+#rightTrends{
+  width: 70%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#rightTrends img{
+  width: 32%;
+  height: 74%;
 }
